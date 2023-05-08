@@ -1,1 +1,10 @@
-
+spring:
+  main:
+    banner-mode: off
+  datasource:
+    url: ${DB_URL}
+    password: ${DB_PASSWORD}
+    username: ${DB_USER}
+  graphql:
+    graphiql:
+      enabled: true

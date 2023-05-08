@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Rt Api" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="local" />
+    <envs>
+      <env name="DB_PASSWORD" value="password" />
+      <env name="DB_USER" value="rt_api" />
+      <env name="DB_URL" value="jdbc:mysql://localhost:3306" />
+    </envs>
+    <module name="rt-api.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.rt.RtApiApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

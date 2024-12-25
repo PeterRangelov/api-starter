@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306
+    username: rt
+    password: pY@I5R0d
+  graphql:
+    graphiql:
+      enabled: true
+  devtools:
+    livereload:
+      enabled: true
